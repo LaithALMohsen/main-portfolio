@@ -1,0 +1,5 @@
+A 3D robot model was designed on Blender in a slightly different style than usual, 
+because usually the model is designed and then painted,
+ but the robot was designed differently because drawings were added for the front, 
+side and back views of the model and placed on models inside Blender,
+ then the edges of the model were cut and glued together.
