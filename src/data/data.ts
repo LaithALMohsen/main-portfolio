@@ -27,7 +27,7 @@ export const skills: SkillCardProps[] = [
         title: "C#",
     },
     {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ui/ui-original.svg",
+        src: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
         title: "Responsive UI",
     },
 ];
