@@ -108,12 +108,12 @@ export const projectsData: ProjectsProps[] = [
             {
                 title: "Horror Game",
                 description: "A horror game I started developing some time ago and am still working on. The game follows a PXS-style aesthetic, blending eerie atmosphere with pixel-inspired visuals and immersive storytelling.",
-                thumbnail: "/images/games/game-1/1.jpeg",
+                thumbnail: "/images/Games/game-1/1.jpeg",
                 images: [
-                    "/images/games/game-1/2.jpeg",
-                    "/images/games/game-1/3.jpeg",
-                    "/images/games/game-1/4.jpeg",
-                    "/images/games/game-1/5.jpeg",
+                    "/images/Games/game-1/2.jpeg",
+                    "/images/Games/game-1/3.jpeg",
+                    "/images/Games/game-1/4.jpeg",
+                    "/images/Games/game-1/5.jpeg",
                 ],
                 badges: [
                     "C#", "Unity", "3D", "Horror", "Singleplayer"
