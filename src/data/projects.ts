@@ -87,14 +87,14 @@ export const projectsData: ProjectsProps[] = [
             {
                 title: "Old Models",
                 description: "A showcase of my earliest 3D sculpting attempts in Blender from rough concepts to complete figures. Some of these older models were used in Unity to experiment with textures and lighting.",
-                thumbnail: "/images/characters/oldwork/1.jpeg",
+                thumbnail: "/images/Characters/oldwork/1.jpeg",
                 images: [
-                    "/images/characters/oldwork/2.jpeg",
-                    "/images/characters/oldwork/3.jpeg",
-                    "/images/characters/oldwork/4.jpeg",
-                    "/images/characters/oldwork/5.jpeg",
-                    "/images/characters/oldwork/6.jpeg",
-                    "/images/characters/oldwork/7.jpeg",
+                    "/images/Characters/oldwork/2.jpeg",
+                    "/images/Characters/oldwork/3.jpeg",
+                    "/images/Characters/oldwork/4.jpeg",
+                    "/images/Characters/oldwork/5.jpeg",
+                    "/images/Characters/oldwork/6.jpeg",
+                    "/images/Characters/oldwork/7.jpeg",
                 ],
                 badges: [
                     "Blender", "3D", "Characters"
