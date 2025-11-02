@@ -11,7 +11,7 @@ export interface SkillCardProps {
 export interface SocialIcon {
   href: string;
   icon: iconTypes;
-  color: "zinc" | "green" | "rose" | "blue" | "sky";
+  color: "zinc" | "green" | "rose" | "blue" | "sky" | "purple" | "orange" | "pink";
 }
 
 export interface ProjectsProps {

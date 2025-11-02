@@ -1,5 +1,6 @@
 import { NavigationProps, SkillCardProps, SocialIcon } from "@/types/types";
 import { Circle, Github, GithubIcon, Instagram, Linkedin, Mail } from "lucide-react";
+import { FaItchIo } from "react-icons/fa6";
 
 export const navigationLinks: NavigationProps[] = [
     { href: "#overview", label: "Overview", active: true },
@@ -27,7 +28,7 @@ export const skills: SkillCardProps[] = [
         title: "C#",
     },
     {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ui/ui-original.svg",
+        src: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
         title: "Responsive UI",
     },
 ];
@@ -36,7 +37,7 @@ export const socialLinks: SocialIcon[] = [
     {
         href: "https://www.instagram.com/le3dart",
         icon: Instagram,
-        color: "rose"
+        color: "orange"
     },
     {
         href: "https://www.linkedin.com/feed",
@@ -52,5 +53,10 @@ export const socialLinks: SocialIcon[] = [
         href: "https://mostaql.com/u/laithAlmohsen",
         icon: Circle,
         color: "blue",
+    },
+    {
+        href: "https://laithmohsen6.itch.io/",
+        icon: FaItchIo,
+        color: "rose",
     },
 ];

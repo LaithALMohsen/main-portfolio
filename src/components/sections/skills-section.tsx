@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import SkillCard from "../skill-card";
 import { BlurFade } from "../magicui/blur-fade";
 import { skills } from "@/data/data";
-import { LampContainer } from "../ui/lamp";
-import { cn } from "@/lib/utils";
 
 export default function SkillsSection() {
     return (
@@ -46,8 +44,7 @@ export default function SkillsSection() {
                             delay: 0.7,
                         }}
                     >
-                        Place a mode toggle on your site to toggle between light and
-                        dark mode.
+                        Game development using Unity 3D and Blender for creating interactive 2D and 3D experiences.
                     </motion.p>
 
                     <motion.div

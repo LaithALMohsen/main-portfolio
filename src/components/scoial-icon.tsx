@@ -10,6 +10,9 @@ export default function ScoialIcon({ href, icon: Icon, color }: SocialIcon) {
     rose: "hover:text-rose-500 hover:border-rose-500 hover:shadow-rose-500/30",
     blue: "hover:text-blue-500 hover:border-blue-500 hover:shadow-blue-500/30",
     sky: "hover:text-sky-500 hover:border-sky-500 hover:shadow-sky-500/30",
+    purple: "hover:text-purple-500 hover:border-purple-500 hover:shadow-purple-500/30",
+    orange: "hover:text-orange-500 hover:border-orange-500 hover:shadow-orange-500/30",
+    pink: "hover:text-pink-500 hover:border-pink-500 hover:shadow-pink-500/30",
   };
 
   const styles = colorClasses[color] ?? "text-muted border-primary";

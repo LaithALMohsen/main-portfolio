@@ -42,9 +42,6 @@ export const projectsData: ProjectsProps[] = [
                     // Character 5
                     "/images/Characters/character-5/1.png",
                     "/images/Characters/character-5/3.png",
-                    // Character 1
-                    "/images/Characters/character-1/1.jpeg",
-                    "/images/Characters/character-1/2.jpeg",
                     // Character 2
                     "/images/Characters/character-2/1.jpeg",
                     // Character 3
@@ -57,6 +54,19 @@ export const projectsData: ProjectsProps[] = [
                     // Character 7
                     "/images/Characters/character-7/1.jpeg",
                     "/images/Characters/character-7/2.jpeg",
+                    // More Characters
+                    "/images/Characters/more/1.jpg",
+                    "/images/Characters/more/2.jpg",
+                    "/images/Characters/more/3.jpg",
+                    "/images/Characters/more/4.jpg",
+                    "/images/Characters/more/5.jpg",
+                    "/images/Characters/more/6.jpg",
+                    "/images/Characters/more/7.jpg",
+                    "/images/Characters/more/8.jpg",
+                    "/images/Characters/more/9.jpg",
+                    "/images/Characters/more/10.jpg",
+                    "/images/Characters/more/11.jpg",
+                    "/images/Characters/more/12.jpg",
                 ],
                 badges: [
                     "Blender", "3D", "Low Poly", "Characters"
@@ -65,7 +75,7 @@ export const projectsData: ProjectsProps[] = [
             {
                 title: "Props Models",
                 description: "Various 3D props and assets designed in Blender to enhance game environments. Some of these props were successfully implemented and tested within Unity scenes.",
-                thumbnail: "/images/Others/7.png",
+                thumbnail: "/images/Others/14.png",
                 images: [
                     "/images/Others/1.png",
                     "/images/Others/2.png",
@@ -73,28 +83,34 @@ export const projectsData: ProjectsProps[] = [
                     "/images/Others/4.png",
                     "/images/Others/5.png",
                     "/images/Others/6.png",
+                    "/images/Others/7.png",
                     "/images/Others/8.png",
                     "/images/Others/9.png",
                     "/images/Others/10.png",
                     "/images/Others/11.png",
                     "/images/Others/12.png",
                     "/images/Others/13.png",
+                    "/images/Others/15.png",
                 ],
                 badges: [
                     "Blender", "3D", "Low Poly", "Props"
                 ],
             },
             {
-                title: "Old Models",
-                description: "A showcase of my earliest 3D sculpting attempts in Blender from rough concepts to complete figures. Some of these older models were used in Unity to experiment with textures and lighting.",
-                thumbnail: "/images/characters/oldwork/1.jpeg",
+                title: "Old Characters",
+                description: "A showcase of my earliest 3D sculpting attempts in Blender from rough concepts to complete characters. Some of these older characters were used in Unity to experiment with textures and lighting.",
+                thumbnail: "/images/Characters/character-1/1.jpeg",
                 images: [
-                    "/images/characters/oldwork/2.jpeg",
-                    "/images/characters/oldwork/3.jpeg",
-                    "/images/characters/oldwork/4.jpeg",
-                    "/images/characters/oldwork/5.jpeg",
-                    "/images/characters/oldwork/6.jpeg",
-                    "/images/characters/oldwork/7.jpeg",
+                    // Character 1
+                    "/images/Characters/character-1/2.jpeg",
+                    // Old Character Models
+                    "/images/Characters/oldwork/1.jpeg",
+                    "/images/Characters/oldwork/2.jpeg",
+                    "/images/Characters/oldwork/3.jpeg",
+                    "/images/Characters/oldwork/4.jpeg",
+                    "/images/Characters/oldwork/5.jpeg",
+                    "/images/Characters/oldwork/6.jpeg",
+                    "/images/Characters/oldwork/7.jpeg",
                 ],
                 badges: [
                     "Blender", "3D", "Characters"
@@ -106,19 +122,52 @@ export const projectsData: ProjectsProps[] = [
         label: "Games",
         projects: [
             {
+                title: "Udemey Certificate",
+                description: "I recently completed the Udemy course 'Complete Blender Creator: Learn 3D Modelling for Beginners' and earned a certificate of completion. This course was a great way to learn Blender and improve my 3D modeling skills.",
+                thumbnail: "/images/certificates/1.jpg",
+                images: [
+                ],
+                badges: [
+                    "Unity", "3D", "Certification", "Udemy"
+                ],
+            },
+            {
                 title: "Horror Game",
                 description: "A horror game I started developing some time ago and am still working on. The game follows a PXS-style aesthetic, blending eerie atmosphere with pixel-inspired visuals and immersive storytelling.",
-                thumbnail: "/images/games/game-1/1.jpeg",
+                thumbnail: "/images/Games/game-1/1.jpeg",
                 images: [
-                    "/images/games/game-1/2.jpeg",
-                    "/images/games/game-1/3.jpeg",
-                    "/images/games/game-1/4.jpeg",
-                    "/images/games/game-1/5.jpeg",
+                    "/images/Games/game-1/2.jpeg",
+                    "/images/Games/game-1/3.jpeg",
+                    "/images/Games/game-1/4.jpeg",
+                    "/images/Games/game-1/5.jpeg",
                 ],
                 badges: [
                     "C#", "Unity", "3D", "Horror", "Singleplayer"
                 ],
             },
+            {
+                title: "Flappy Bird",
+                description: "A simple flappy bird game I developed as a practice project. The game is a simple clone of the original Flappy Bird game, but with a few added features.",
+                link: "https://laithmohsen6.itch.io/flappy-bird",
+                thumbnail: "/images/Games/game-2/1.png",
+                images: [
+                ],
+                badges: [
+                    "C#", "Unity", "2D", "Flappy Bird"
+                ],
+            },
+            {
+                title: "Cube of Balnance",
+                description: "A simple cube balancing game I developed as a practice project. The game is a simple clone of the original Cube of Balnance game, but with a few added features.",
+                link: "https://laithmohsen6.itch.io/cube-of-balnance",
+                thumbnail: "/images/Games/game-3/1.png",
+                images: [
+                    "/images/Games/game-3/2.png",
+                ],
+                badges: [
+                    "C#", "Unity", "3D", "Cube of Balnance"
+                ],
+            }
         ]
     },
 ];
